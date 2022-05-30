@@ -1,0 +1,161 @@
+/* Customização da página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f5f7fa;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;    
+}
+
+/* Customização da barra de navegação */
+.navegacao {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 0;
+    height: 44px;    
+}
+
+.navegacao i {
+    font-size: 1.5rem;
+    color: #dadfe6;
+}
+
+.navegacao i:nth-child(1){
+    color: #fe466d;
+}
+
+/* Customização da Foto e Descrição */
+.foto-descricao{
+    height: calc(100vh px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Customização da borda da Foto */
+.foto {
+    width: 98vw;
+    height: 85vh;
+    background: url('../img/ima.jpg') center center/cover;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: #eee;
+    box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+}
+
+/* Customização da borda da descrição da Foto */
+.fotoperfil-descricao {
+    padding: 15px;
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        180deg, 
+        rgba(2, 0, 36, 1) 0%,
+        rgba(35, 34, 65, 0) 0%,
+        rgba(0, 0, 0, 0.7) 52%
+    );
+    border-radius: 10px;
+}
+
+/* Customização da borda da Foto */
+.foto-nome-idade {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 1.5rem;
+}
+
+.foto-nome-idade h2:nth-child(2) {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+/* Customização bio */
+.bio {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Customização botões de interações */
+.interacoes {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.acao {
+    background: #fff;
+    box-shadow: 0 2px 6px 0 rgba(112, 125, 134, 0.14);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: transform 500ms ease;
+}
+
+.acao:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.interacoes .acao:nth-child(1){
+    margin: 0 1rem;
+    color: black;    
+    height: 48px;
+    width: 48px;
+    font-size: 1.5rem;
+}
+
+.interacoes .acao:nth-child(2){
+    color: #fd5068;    
+}
+
+.interacoes .acao:nth-child(3){
+    margin: 0 1rem;
+    color: #2db1ff;
+    height: 48px;
+    width: 48px;
+    font-size: 1.5rem;
+}
+
+.interacoes .acao:nth-child(4){
+    color: #1be4a1;    
+}
+
+.interacoes .acao:nth-child(5){
+    margin: 0 1rem;
+    color: purple;   
+    height: 48px;
+    width: 48px;
+    font-size: 1.5rem;   
+}
+
+/* Personalização de visualização para o Desktop */
+@media (min-width: 1025px) {
+    .foto {
+        width: 400px;
+        height: 684px;
+    }
+
+    .navegacao {
+        width: 400px;
+        margin: auto;        
+    }
+    
+    .foto-descricao {
+        justify-content: center;
+    }
+
+}
