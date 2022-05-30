@@ -1,4 +1,4 @@
-## Clone do Tinder ![HomerTinderGIF](https://user-images.githubusercontent.com/87910555/171049863-22572552-c93a-4349-8ded-4983b0cbb5be.gif)
+## 📝 Projeto Clone do Tinder 
 
 
 ![clonetinder](https://user-images.githubusercontent.com/87910555/171049477-6d2fa9fa-8e0f-4eef-964b-4f50ea427c5d.png)
